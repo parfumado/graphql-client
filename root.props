@@ -1,7 +1,7 @@
 <Project>
 
   <PropertyGroup>
-    <Authors>Deinok,Alexander Rose,graphql-dotnet</Authors>
+    <Authors>Deinok,Alexander Rose,graphql-dotnet,fabio-s-franco</Authors>
     <Description>A GraphQL Client for .NET Standard</Description>
     <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
@@ -11,11 +11,11 @@
     <Nullable>annotations</Nullable>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/graphql-dotnet/graphql-client</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/fabio-s-franco/graphql-client</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageTags>GraphQL</PackageTags>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/graphql-dotnet/graphql-client</RepositoryUrl>
+    <RepositoryUrl>https://github.com/fabio-s-franco/graphql-client</RepositoryUrl>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>

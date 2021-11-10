@@ -14,7 +14,7 @@ namespace GraphQL.Client.Serializer.SystemTextJson
         public static JsonSerializerOptions DefaultJsonSerializerOptions => new JsonSerializerOptions
         {
             PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
-            Converters = { new JsonStringEnumConverter(new ConstantCaseJsonNamingPolicy(), false)}
+            Converters = { new JsonStringEnumConverter(new ConstantCaseJsonNamingPolicy(), false) }
         }.SetupImmutableConverter();
 
         public JsonSerializerOptions Options { get; }
@@ -23,10 +23,13 @@ namespace GraphQL.Client.Serializer.SystemTextJson
 
         public SystemTextJsonSerializer(Action<JsonSerializerOptions> configure) : this(configure.AndReturn(DefaultJsonSerializerOptions)) { }
 
-        public SystemTextJsonSerializer(JsonSerializerOptions options)
+        public SystemTextJsonSerializer(JsonSerializerOptions options, bool enforceGragphQlSpecs = true)
         {
             Options = options;
-            ConfigureMandatorySerializerOptions();
+            if (enforceGragphQlSpecs)
+            {
+                ConfigureMandatorySerializerOptions();
+            }
         }
 
         private void ConfigureMandatorySerializerOptions()
