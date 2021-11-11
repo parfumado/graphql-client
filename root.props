@@ -11,11 +11,11 @@
     <Nullable>annotations</Nullable>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <PackageProjectUrl>https://github.com/fabio-s-franco/graphql-client</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/parfumado/graphql-client</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageTags>GraphQL</PackageTags>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/fabio-s-franco/graphql-client</RepositoryUrl>
+    <RepositoryUrl>https://github.com/parfumado/graphql-client</RepositoryUrl>
     <TreatWarningsAsErrors>True</TreatWarningsAsErrors>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
